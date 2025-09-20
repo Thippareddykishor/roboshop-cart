@@ -3,3 +3,5 @@ on: push
 jobs:
     common: 
         uses: Thippareddykishor/github-actions-resuable/.github/workflows/ci.yml@main
+        with: 
+            component_name: cart
