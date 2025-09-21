@@ -1,8 +1,5 @@
 name: CART CI -Pull Request
-on: 
-    push:
-        paths:
-            ["*"]
+on: pull_request
 jobs:
     common: 
         uses: Thippareddykishor/github-actions-resuable/.github/workflows/ci-pr.yml@main
