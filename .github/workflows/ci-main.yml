@@ -10,3 +10,4 @@ jobs:
         uses: Thippareddykishor/github-actions-resuable/.github/workflows/ci-main.yml@main
         with: 
             component_name: cart
+            app_type: nodejs
