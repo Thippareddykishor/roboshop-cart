@@ -1,9 +1,8 @@
-name: CART CI -PR Branch
+name: cart ci pull request
 on: 
     push:
-        branches:
-            - 'RB*'
-            - '!main'
+        paths:
+            ["*"]
 jobs:
     common: 
         uses: Thippareddykishor/github-actions-resuable/.github/workflows/ci-pr.yml@main

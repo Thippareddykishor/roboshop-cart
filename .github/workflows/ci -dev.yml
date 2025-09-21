@@ -1,8 +1,7 @@
-name: CART CI -DEV Branch
+name: cart ci DEV branch
 on: 
     push:
         branches:
-            - 'RB*'
             - '!main'
 jobs:
     common: 
