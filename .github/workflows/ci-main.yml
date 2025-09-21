@@ -1,12 +1,7 @@
-name: cart ci main branch
-on: 
-    workflow_dispatch:
-    push:
-      branches:
-        - main
-
+name: CART CI - Main branch
+on: [push, workflow_dispatch]
 jobs:
     common: 
-        uses: Thippareddykishor/github-actions-resuable/.github/workflows/ci-main.yml@main
+        uses: Thippareddykishor/github-actions-resuable/.github/workflows/ci.yml@main
         with: 
             component_name: cart
