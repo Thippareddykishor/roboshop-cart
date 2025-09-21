@@ -1,0 +1,10 @@
+name: cart ci DEV branch
+on: 
+    push:
+        branches:
+            - '!main'
+jobs:
+    common: 
+        uses: Thippareddykishor/github-actions-resuable/.github/workflows/ci-dev.yml@main
+        with: 
+            component_name: cart

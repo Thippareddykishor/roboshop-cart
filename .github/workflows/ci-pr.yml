@@ -1,0 +1,10 @@
+name: cart ci pull request
+on: 
+    push:
+        paths:
+            ["*"]
+jobs:
+    common: 
+        uses: Thippareddykishor/github-actions-resuable/.github/workflows/ci-pr.yml@main
+        with: 
+            component_name: cart
