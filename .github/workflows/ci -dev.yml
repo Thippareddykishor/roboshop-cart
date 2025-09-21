@@ -2,7 +2,7 @@ name: CART CI - DEV branch
 on: 
     push:
         branches:
-            - '!main'
+            - 'RB*'
 jobs:
     common: 
         uses: Thippareddykishor/github-actions-resuable/.github/workflows/ci-dev.yml@main
