@@ -1,4 +1,4 @@
-name: cart ci pull request
+name: CART CI -Pull Request
 on: 
     push:
         paths:
