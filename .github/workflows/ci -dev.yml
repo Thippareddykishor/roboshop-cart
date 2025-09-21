@@ -1,4 +1,4 @@
-name: cart ci DEV branch
+name: CART CI - DEV branch
 on: 
     push:
         branches:
